@@ -41,3 +41,17 @@ a|a
 str1= """ this is my first string"""
 str1[3]
 len (str1)
+
+str1.upper() # this is for change capital letter .
+str1.lower() # this is for change small letter 
+str1.replace('y','a')
+string= "hello hello world"
+string.count ("hello")
+mystring= "hello world"
+mystring.find("w")
+mystring.split ("l") # split l 
+
+# Tuple operetions
+
+
+
