@@ -37,3 +37,7 @@ a|b
 a|a
   True
 
+# String operations 
+str1= """ this is my first string"""
+str1[3]
+len (str1)
