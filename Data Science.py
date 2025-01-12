@@ -52,6 +52,14 @@ mystring.find("w")
 mystring.split ("l") # split l 
 
 # Tuple operetions
-
-
-
+tup1= ("hsh","SD",1)
+type(tup1)
+tuple 
+tup2 = ("labani",123)
+tup2*3
+('labani', 123, 'labani', 123, 'labani', 123)
+tup2*3 + tup1
+('labani', 123, 'labani', 123, 'labani', 123, 'hsh', 'SD', 1)
+tup1 = (23,6753,82)
+max(tup1)
+6753
