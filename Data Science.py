@@ -63,3 +63,22 @@ tup2*3 + tup1
 tup1 = (23,6753,82)
 max(tup1)
 6753
+
+# List operation 
+l1= [12,3,"e"]
+type (l1)
+list
+l1[2]=322
+l1
+[12, 3, 322]
+l1.reverse()
+l1
+[322, 3, 12]
+l1.insert(1,'lal')
+l1
+[322, 'lal', 3, 12]
+l2=["kasd","app","car","bal"]
+d1 = {"apple": 34,"bell":22}
+d1["apple"]= 99
+d1
+{'apple': 99, 'bell': 22}
