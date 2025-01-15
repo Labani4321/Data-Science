@@ -78,7 +78,18 @@ l1.insert(1,'lal')
 l1
 [322, 'lal', 3, 12]
 l2=["kasd","app","car","bal"]
+
+# Dictionary Operations
 d1 = {"apple": 34,"bell":22}
 d1["apple"]= 99
 d1
 {'apple': 99, 'bell': 22}
+type (d1)
+dict
+d1.keys()
+dict_keys(['apple', 'bell'])
+d1["apple"]=32
+d1
+d1.values()
+dict_values([34, 22])
+
