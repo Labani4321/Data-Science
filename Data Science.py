@@ -1,4 +1,4 @@
-print("labani")
+ print("labani")
   Labani
 student = "sam"
 student
@@ -132,6 +132,38 @@ s1.union(s2)
 {1, 2, 3, 32, 4, 43, 'fr', 's'}
 
 # If Else Condition 
+a= 23
+b= 232
+if b>a:
+    print("b greater than a ")
+  b greater than a 
+
+a= 56
+b= 23
+c= 34
+if (a>b) & (b<c):
+    print("false")
+elif(b<c) & (a<c):
+    print("true")
+else:
+    print("false")
+  false
+
+tup1 = ('a','b', 23)
+if 'z' in tup1:
+    print("z is present in tup1")
+else:
+    print("z is not present in tup1")
+  z is not present in tup1
+
+l1 = ['a','b','c']
+d1= {'k1':56,'k2':87,'k3':98}
+if d1['k2']==87:
+    d1['k2']=d1['k2']+100
+  d1
+{'k1': 56, 'k2': 187, 'k3': 98}
+
+
 
 
 
