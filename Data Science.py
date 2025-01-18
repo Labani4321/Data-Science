@@ -187,10 +187,31 @@ while i<len(l1):
  l1
 [101, 102, 103, 104, 105]
 
+#Multiple task function  
+def hello():
+    print ("Labani")
+ hello()
+def hello ():
+    print ('my name is Labani')
+ hello ()
+my name is Labani
 
+def add (x):
+    return (x+3+2)
+add (15)
+20
+add (200)
+205
 
-
-
+def odd_even (x):
+    if x%2==0:
+        print ("even")
+    if x%2!=0:
+        print("odd")
+     odd_even(23)
+odd
+odd_even(44)
+even
 
 
 
