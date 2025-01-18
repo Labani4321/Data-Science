@@ -213,6 +213,15 @@ odd
 odd_even(44)
 even
 
+g=lambda x : x*x*x
+g(23)
+12167
+g(3)
+27
+
+# Filter Function 
+
+
 
 
 
