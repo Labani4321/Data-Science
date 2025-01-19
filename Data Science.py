@@ -247,6 +247,19 @@ class phone:
 p1.make_call()
 phone call
 
+#Here first parameter is self .inbuid parameter ko invoked karna hai object ke sath.
+class Phone: #creating the phonr class
+    def make_call(self):
+        print("phone call")
+     class Game:
+    def game(self):
+        print ("now play game")
+    p2=Game() #ininitializing p2 project 
+    p2.game() # invoking methods through object
+now play game
+
+
+
 
      
 
