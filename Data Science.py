@@ -258,6 +258,42 @@ class Phone: #creating the phonr class
     p2.game() # invoking methods through object
 now play game
 
+class Good :
+    def make_game(self):
+        print("now i am playing")
+    def water (self):
+        print("i drinking lemon water ")
+     p3=Good()
+p3.water()
+i drinking lemon water
+
+class Home: # with extra parameter 
+    def set_color (self,color):
+        self.color=color
+    def set_cost (self,cost):
+        self.cost= cost
+    def show_color(self):
+        return self.color
+    def show_cost(self):
+        return self.cost 
+    def father(self):
+        print("my father name is Labani Haldar,Father name is Prodip Haldar")
+    def address(self):
+        print("Gangarampur,Dakshin Dinajpur")
+     p5= Home()
+p5.father()
+my father name is Labani Haldar,Father name is Prodip Haldar
+p5.address()
+Gangarampur,Dakshin Dinajpur
+p5.set_color("blue")
+p5.show_color()
+'blue'
+p5.set_cost(49859)
+p5.show_cost()
+49859
+
+
+
 
 
 
