@@ -292,6 +292,69 @@ p5.set_cost(49859)
 p5.show_cost()
 49859
 
+#Creating a class with constructor 
+class Employee: # inint method acts as the connstructor
+    def __init__(self,name,address,phone_no,age,cost):
+        self.name= name
+        self.address= address
+        self.phone_no= phone_no
+        self.age= age
+        self.cost = cost
+    def show_employee_details (self):
+        print ("my name is ",self.name)
+        print ("my address is ",self.address)
+        print ("my phone_no is ",self.phone_no)
+        print ("my age is ",self.age)
+        print("total cost is ",self.cost)
+     e1= Employee('Labani','Dakshin Dinajpur',93442,20,9000000000000)#instantiating the e1 object here with value pass
+e1.show_employee_datails() #invokes the emplpoyee_details method (AKHANE AKTU ERRRO ACHE )
+
+#inheritance 
+# here one superclass and another is sub class .with inheritance one class can derive the properties of another class .
+# man inheritance features from his father.
+# here grandfather er jeen father . 
+# class Vehicle:
+#     def __init__(self,mileage,cost):
+#         self.mileage= mileage
+#         self.cost = cost
+
+# def show_details(self):
+#     print("vehicle mileage is ",self.mileage)
+#     print("vehicle cost is ",self.cost)
+# v1 = Vehicle (24,43533)
+# v1.show_details()
+class Vehicle :
+    def __init__ (self,mileage,cost):
+        self.mileage = mileage
+        self.cost = cost
+    def show_vehicle_details(self):
+        print("mileage of vehicle is ",self.mileage)
+        print("cost is ",self.cost)
+        print("you are vehicle")
+v1= Vehicle (120,3423)
+# v1.show_vehicle_details()
+# class Car(Vehicle):#child class car inheritant property of the class Vehicle.
+#     def show_car_details(self):
+#         print("you are a car")
+# c1= Car(344,3231)
+# c1.show_vehicle_details()
+# c1.show_car_details()
+class Car(Vehicle):
+    def __init__ (self,mileage,cost,tyres,hp):
+        super().__init__(mileage,cost)
+        self.tyres= tyres
+        self.hp = hp 
+    def show_car_details(self):
+        print ("car's mileage is ",self.tyres)
+        print ("car hp is ",self.hp)
+     c2= Car(231,421,35,1267)
+c1.show_car_details()
+you are a car
+c2.show_car_details()
+car's mileage is  35
+car hp is  1267
+
+
 
 
 
