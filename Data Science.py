@@ -220,7 +220,21 @@ g(3)
 27
 
 # Filter Function 
+final_list=list(filter(lambda y: (y%2==0),l1))
+l1
+[2, 45, 89, 43, 56, 124, 26, 74, 45]
+final_list
+[2, 56, 124, 26, 74]
+l2= [12,43,22,56,21,11,33,111]
 
+# Lamda with Map
+new_final=list(map(lambda x: x*3,l2))
+new_final
+[36, 129, 66, 168, 63, 33, 99, 333]
+
+
+
+     
 
 
 
