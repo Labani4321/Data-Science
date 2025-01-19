@@ -354,6 +354,13 @@ c2.show_car_details()
 car's mileage is  35
 car hp is  1267
 
+# difference type of Inheritance 
+# single inheritance 
+# multiple inheritance 
+# multilevel inheritance
+# hybrid inheriitance
+
+
 
 
 
