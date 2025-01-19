@@ -232,6 +232,20 @@ new_final=list(map(lambda x: x*3,l2))
 new_final
 [36, 129, 66, 168, 63, 33, 99, 333]
 
+# Reduce use got final result on sequence 
+from functools import reduce
+sum=(reduce(lambda x,y : x+y,l2)) # akhane error ache 
+new_list
+
+class phone:
+    def make_call (self):
+        print("phone call")
+     class phone:
+    def make_call (self):
+        print("phone call")
+     p1=phone()
+p1.make_call()
+phone call
 
 
      
