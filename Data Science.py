@@ -360,6 +360,41 @@ car hp is  1267
 # multilevel inheritance
 # hybrid inheriitance
 
+# multiple inheritance : the child inheritance from more than 1 parent class
+# parent 1             parent2 
+#           child 
+
+class Parent1 ():                   #parent class one
+      def assign_string_one (self,str1):
+          self.str1= str1
+      def show_string_one(self):
+          return self.str1
+
+class Parent2 ():
+    def assign_string_two (self,str2):           #parent class two 
+        self.str2= str2
+
+    def show_string_two(self):
+        return self.str2
+     
+     class Child(Parent1, Parent2):
+    def assign_string_three (self,str3):             # child class 
+        self.str3= str3
+    def show_string_three(self):                #this child class is inheritance of parent 1 and paren 2.
+        return self.str3
+     d2= Child() # invoked the parent class 
+
+d2.assign_string_one ("i am string of parent 1")
+d2.assign_string_two ("i am string of parent 2")   
+d2.assign_string_three ("i am a string odf child ")
+
+d2.show_string_one ()
+'i am string of parent 1
+d2.show_string_two()
+'i am string of parent 2
+d2.show_string_three()
+'i am a string odf child '
+
 
 
 
