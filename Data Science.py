@@ -487,8 +487,8 @@ array([[1, 2, 3, 4],
 type(n2)
 numpy.ndarray
 import numpy as np 
-n3 = np.zeroes((2,3))
-n3
+
+
 
 
 
