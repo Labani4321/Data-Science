@@ -395,8 +395,88 @@ d2.show_string_two()
 d2.show_string_three()
 'i am a string odf child '
 
+# in multi level inheritance ,we have parent ,child ,grand child relationship .
 
+            # Parent 
 
+            # Child            # relationship # Child parent se inherit kar raha hai
+ 
+            # Grand- Child     # Grand-Child child se inherit kar raha hai 
+class Parent ():
+    def assign_name (self,name):
+        self.name = name
+    def show_details_name (self):
+        return self.name
+
+class Child(Parent):
+    def assign_age (self,age):
+        self.age = age 
+    def show_details_age(self):
+        return self.age
+     class GrandChild (Child):
+    def assign_gender(self,gender):
+        self.gender= gender
+    def show_details_gender(self):
+        return self.gender
+d3 = GrandChild()
+d3.assign_name("my name is Labani Haldar")
+d3.assign_age("my age is 20")
+d3.assign_gender("Female") 
+
+d3.show_details_name()
+'my name is Labani Haldar'
+d3.show_details_gender()
+'Female'
+d3.show_details_age ()
+'my age is 20'
+
+class Labani():
+    def assign_bari(self,name):
+        self.name = name 
+    def show_details_bari (self):
+        return self.name
+     
+class Shrabani(Labani):
+    def assign_ghar(self,jaiga):
+        self.jaiga= jaiga
+    def show_details_ghar(self):
+        return self.jaiga
+     
+ class Parama (Shrabani):
+    def assign_sec(self,sec):
+        self.sec= sec
+    def show_details_sec (self):
+        return self.sec
+     
+b1= Parama()
+
+b1.assign_bari("My bari is Gangarampur")
+b1.assign_ghar("chad kno asena amar ghore ")
+b1.assign_sec("i am reading in class 2")
+
+b1.show_details_sec ()
+'i am reading in class 2'
+b1.show_details_ghar()
+'chad kno asena amar ghore '
+
+# Python Libraries 
+
+# Pandas-> Data manupulation  
+# Numpy->  numerical 
+# Matplolib-> Data visualization 
+
+# Numpy 
+# scientific computing 
+# numerical python (core library)
+# multidemsinonal array object and a collection of routines for processing those arrays 
+
+import numpy as np
+l1=[1,2,3]
+n1= np.array(l1)
+n1
+array([1, 2, 3])
+type (n1 )
+numpy.ndarray
 
 
 
