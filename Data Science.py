@@ -478,6 +478,18 @@ array([1, 2, 3])
 type (n1 )
 numpy.ndarray
 
+import numpy as np 
+l2 = ([1,2,3,4],[4,3,2,1])
+n2=np.array(l2)
+n2
+array([[1, 2, 3, 4],
+       [4, 3, 2, 1]])
+type(n2)
+numpy.ndarray
+import numpy as np 
+n3 = np.zeroes((2,3))
+n3
+
 
 
 
