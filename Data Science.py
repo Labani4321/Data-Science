@@ -1,4 +1,4 @@
- print("labani")
+print("labani")
   Labani
 student = "sam"
 student
