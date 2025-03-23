@@ -542,6 +542,51 @@ array([ 50,  60,  70,  80,  90, 100, 110, 120, 130, 140, 150, 160, 170,
        310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430,
        440, 450, 460, 470, 480, 490])
 
+# initializing Numpy array with random numbers 
+import numpy as np
+n4=np.random.randint (1,100,5)
+print(n4)
+[95  8 70 91 85]
+
+import numpy as np 
+np.random.randint(2,20,5) #every time get different output
+array([ 5, 10, 17, 11, 17])
+
+import numpy as np 
+n1 = np.array([[1,2,3,4],[2,3,5,6]])
+n1
+array([[1, 2, 3, 4],
+       [2, 3, 5, 6]])
+n1.shape
+n1
+array([[1, 2],
+       [3, 4],
+       [2, 3],
+       [5, 6]])
+
+n1.shape = (8,1)
+n1
+array([[1],
+       [2],
+       [3],
+       [4],
+       [2],
+       [3],
+       [5],
+       [6]])
+
+
+#  joining a numpy array 
+# 1. vertical_stack using short form vstack .
+# 2. horizontal_stack using short form hstack .
+# 3. column_stack using form column_stack .
+
+import numpy as np 
+n1=np.array([1.2,3,2])
+n2=np.array([2,4,3,5])
+
+np.vstack((n1,n2))
+
 
 
      
