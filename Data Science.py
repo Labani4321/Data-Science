@@ -584,14 +584,70 @@ array([[1],
 import numpy as np 
 n1=np.array([1.2,3,2])
 n2=np.array([2,4,3,5])
-
 np.vstack((n1,n2))
 
+array([[1, 2, 4],
+       [2, 4, 3]])
+
+import numpy as np 
+n1= np.array([12,21,33])
+n2= np.array ([21,32,55,43])
+np.hstack((n1,n2))
+
+array([12, 21, 33, 21, 32, 55, 43])
+
+np.column_stack ((n1,n2)) #here the one arrayindex 0 has size three and another array index has size 4 
+# here column stack index i same necessary
+n2 = np.array([22,32])
+n3= np.array ([23,22])
+np.column_stack((n2,n3))
+
+array([[22, 23],
+       [32, 22]])
 
 
-     
+#Intersection and difference 
+import numpy as np
+n1 = np.array ([12,14,47,43,21])
+n2 =np.array ([23,21,43])
+np.intersect1d(n1,n2)
+
+array([21, 43])
 
 
+n1 = np.array([21,23]) 
+n2= np.array ([32,78])
+np.intersect1d (n1,n2)
+
+array([], dtype=int32)
+
+n1 = np.array ([12,14,47,43,21])
+n2 =np.array ([23,21,43])
+np.setdiff1d (n1,n2)
+
+array([12, 14, 47])
+np.setdiff1d (n2,n1)
+
+array([23])
+
+#Adittion of numpy array 
+#Numpy array mathematics 
+import numpy as np 
+n1 = np.array ([1,1,1])    # here all elments is sum 
+n2 = np.array ([1,1,1])
+np.sum ([n1,n2])
+
+6
+
+#here only each column is added (sum)
+np.sum ([n1,n2],axis=0)
+
+array([2, 2, 2])
+
+# here only each rows is added (sum)
+np.sum ([n1,n2],axis =1)
+
+array([3, 3])
 
 
 
