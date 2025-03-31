@@ -650,6 +650,162 @@ np.sum ([n1,n2],axis =1)
 array([3, 3])
 
 
+#Basic addition 
+import numpy as np 
+n1= np.array ([1,2,4,5])
+n1= n1+1
+n1
+
+
+#Basic multiplication 
+n1 = np.array ([1,2,3,4])
+n1 = n1*2
+n1
+
+#Basic subtraction 
+n1= np.array ([1,4,2,1])
+n1 = n1-1
+n1
+
+n1= np.array ([1,4,2,1])
+n1 = n1-2
+n1
+
+
+#Basic addition 
+import numpy as np 
+n1= np.array ([1,2,4,5])
+n1= n1+1
+n1
+
+
+#Basic multiplication 
+n1 = np.array ([1,2,3,4])
+n1 = n1*2
+n1
+
+#Basic subtraction 
+n1= np.array ([1,4,2,1])
+n1 = n1-1
+n1
+
+n1= np.array ([1,4,2,1])
+n1 = n1-2
+n1
+
+ #Basic division 
+n2 = np.array ([1,2,4])
+n2 = n2/2
+n2
+
+
+#basic i want found mean then i do 
+import numpy as np 
+n1 =np.array ([1,2,3,4,5])
+np.mean (n1)
+
+# Standard deviiation  
+n1 = np.array ([2,4,2,1])
+np.std (n1)
+
+# i found median 
+n1 = np.array ([1,2,3,4])
+np.median(n1)
+
+2.5
+
+n1= np.random.randint (1,10,3)
+n1
+array([1, 6, 8])
+np.mean(n1)
+5.0
+
+n1= np.random.randint (1,10,3)
+n1
+array([1, 4, 2])
+
+np.median (n1)
+2.0
+
+
+# Numpy save or load 
+import numpy as np
+n1 = np.array ([1,2,34,4])
+np.save('my_numpy',n1) 
+
+# Numpy load 
+import numpy as np 
+n2 = np.load('my_numpy.npy')
+n2
+
+array([ 1,  2, 34,  4])
+
+#numerical computing is end then start how data manupulation with the help of pandas
+# Pandas stands for Panel Data and is the core library for data manupulation and data analysis .
+
+# it consists of single and multi-dimensional data structure for data manupulaton .
+# or give some method for help of data manupulation 
+
+# single dimentional array  -> series object
+# multidimentinal array  -> Data Frame 
+
+# Series object is one dimentional labeled aray
+
+import pandas as pd 
+s1  = pd.Series ([1,23,4,45])   # here 0 1 2 3 is index 
+s1
+
+0     1
+1    23
+2     4
+3    45
+dtype: int64
+
+type (s1)
+pandas.core.series.Series
+
+s1= pd.Series ([1,2,3,4] , index= ['a','b','c','d'])
+s1
+a    1
+b    2
+c    3
+d    4
+dtype: int64
+
+# i can also create a series object from dictionary
+import pandas as pd 
+s2 = pd.Series ({"a": 12, "b": 32, "c" : 23, "d" : 34 }) # here keys convert to index and values ar convert to series object 
+# series's S is capital 
+s2
+a    12
+b    32
+c    23
+d    34
+dtype: int64
+
+import pandas as pd
+s3 = pd.Series ({"a":23,"b":32,"d":43}, index= ["a","d","c","b"]) # you can change index  
+s3 
+a    23.0
+d    43.0
+c     NaN
+b    32.0
+dtype: float64
+
+# Extracting Indivisual Elements 
+#  1. Extracting a single element 
+#  2. Extracting elements from back 
+#  3. Extracting a sequence of elements 
+# Extracting a single element 
+import pandas as pd 
+s1 = pd.Series ([1,12,3,3,4])
+s1[3]
+3
+
+
+
+
+
 
 
 
